@@ -1,0 +1,148 @@
+@import url("./_resets.css");
+
+html {
+  height: 500px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.items {
+  height: 90px;
+  margin: 5px;
+  background: white;
+  color: black;
+  font-type: arial;
+  text-align: center;
+  line-height: 70px;
+  font-weight: 600;
+  width: 20%;
+}
+
+.bottom {
+  height: 520px;
+  background: lightgrey;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.bottom2 {
+  height: 580px;
+  background: lightgrey;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.disney {
+  padding-top: 80px;
+  text-align: center;
+  font-type: arial;
+  font-size: 40px;
+}
+
+.image {
+  margin-top: 20px;
+}
+
+a:hover {
+  color: black;
+  font-size: 1.5em;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+blockquote{
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #666;
+  text-align: justify;
+
+  border-left: 15px solid #c76c0c;
+  border-right: 2px solid #c76c0c;
+
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+}
+
+blockquote::before{
+  content: "\201C";
+
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+
+  position: absolute;
+  left: 10px;
+  top:5px;
+}
+
+blockquote::after{
+  content: "";
+}
+
+blockquote a{
+  text-decoration: none;
+  background: #eee;
+  cursor: pointer;
+  padding: 0 3px;
+  color: #c76c0c;
+}
+
+blockquote a:hover{
+ color: #666;
+}
+
+blockquote em{
+  font-style: italic;
+}
+
+.figure {
+  width: 30%;
+  flex-direction: column;
+  border: thin silver solid;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+.figure p {
+  text-align: center;
+  font-style: italic;
+  font-size: 15px;
+  text-indent: 0;
+}
+
+.bottom3 {
+  height: 650px;
+  background: lightgrey;
+  width: 90%;
+  margin: 0 auto;
